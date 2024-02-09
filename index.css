@@ -1,0 +1,19 @@
+.main-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color:blueviolet;
+    font: 1.2em Arial, Helvetica, sans-serif;
+}
+
+.main-nav a {    
+    padding: 0.05em 1em;
+    display: block;
+    color:white;
+
+}
+
+.push {
+    margin-right: auto;
+}
