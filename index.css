@@ -64,9 +64,9 @@
     padding: 1em;
     width:200px;
     font: 1.2em Arial, Helvetica, sans-serif;
-    left:0;
-    top:0;
+    margin-left:150px;
     position: absolute;
+
 }
 
 .left-nav-header{
@@ -89,17 +89,45 @@
 
 .main-content-wrap {
     height: auto;
-    padding-left: 230px;
+    padding-left: 400px;
+    width: 950px;
 }
 
 .main-content   {
     display: block;
     background: #f4f4f4;
     padding: 1em;
-    margin: 0;
     font: 1.2em Arial, Helvetica, sans-serif;
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
     box-sizing: border-box;
+    height:auto;
 
+}
+
+.faculty-header {
+    font: 1.5em Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    width: auto;
+}
+
+.faculty-info-left {
+    float:left;
+    width: 400px;
+    margin: 0;
+}
+
+.faculty-info-left h5{
+    font: 1.5em Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+
+.faculty-info-right {
+    margin-left: 425px;
+    min-height: 900px;
+}
+
+.faculty-info-right h5{
+    font: 1.5em Arial, Helvetica, sans-serif;
+    color: blueviolet;
 }
